@@ -28,7 +28,7 @@ Link to notebook:
 
 http://localhost:8888/notebooks/Berkley/CapStone3.ipynb?
 
-## Results: ##
+# Results: #
 
 We were looking for Precision as our key attribute for our model to have. We want the model to be correct when picking attribute to make new features on. 
 
@@ -42,7 +42,6 @@ After performing a Grid Search optimized for Precision, the following results we
 | Logistic Regression | 0.5471 | 0.9043 | 0.6817 |
 | XGBoost | 0.5007 | **0.9291** | 0.6507 |
 
----
 
 ## Key Insights
 * **Precision Favorite:** The **Random Forest** model is highly reliable, with an **82.7% Precision** rate. This means that when the model predicts a player will be retained, it is correct over 8 times out of 10.
